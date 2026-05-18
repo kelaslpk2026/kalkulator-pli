@@ -15,8 +15,7 @@ pangkat=st.button("+")
 reset=st.button("reset")
 tambah, kurang, kali=st.columns(3)
 bagi, pangkat, reset=st.columns(3)
-st.button("+"), st.button("-"),  st.button("x")= st.columns(3)
-st.button(":"), st.button("^"), st.button("reset")=st.columns(3)
+
 if tambah:
     st.header(number1+number2)
 elif kurang:
