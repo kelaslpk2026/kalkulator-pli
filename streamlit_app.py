@@ -1,6 +1,6 @@
 import streamlit as st
 
 st.title("🎈 Kalkulator PLI")
-st.write(
+st.header(
     "Menghitung hasil operasi aritmatika sederhana"
 )
