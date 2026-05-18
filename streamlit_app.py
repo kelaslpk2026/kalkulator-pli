@@ -6,6 +6,15 @@ st.header(
 )
 number1 = st.number_input("Masukkan angka 1")
 number2 = st.number_input("Masukkan angka 2")
-if st.button("tambah"):
+if st.button("+"):
     st.header(number1+number2)
-
+elif st.button("-"):
+    st.header(number1-number2)
+elif st.button("x"):
+    st.header(number1*number2)
+elif st.button(":"):
+    st.header(number1/number2)
+elif st.button("^"):
+    st.header(number1**number2)
+elif st.button("reset"):
+    st.rerun()
